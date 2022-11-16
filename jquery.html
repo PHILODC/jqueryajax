@@ -10,7 +10,9 @@
     <script>
       $(document).ready(function () {
         $("button").click(function () {
-          $("#div1").load("demo_test.txt");
+          $("#div1").load(
+            "https://tools.learningcontainer.com/sample-json.json"
+          );
         });
       });
     </script>
@@ -18,9 +20,7 @@
   <body>
     <h1>JQUERY PRAC</h1>
 
-    <div id="div1">
-      <h2>Let jQuery AJAX change This Text</h2>
-    </div>
+    <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
 
     <button>Get External Content</button>
   </body>
